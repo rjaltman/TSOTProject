@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C6395382-723E-07E7-90A5-EF64C2AB9ACB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\0Everything\Scripts\AudioManager.js" />
+     <Compile Include="Assets\0Everything\Scripts\ButtonScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\CameraTurnJS.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\ConsoleScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\Crosshair.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\CurrencyManager.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\FloorCollider.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\HPManager.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\HPManager2.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\LayerManager.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\LevelingScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\PickupManager.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\QualityScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\Shooter.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\TakedownTriggerScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\ThirdPersonCameraToggle.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\WepCustomization.js" />
+     <Compile Include="Assets\0Everything\Scripts\Character Scripts\WepTriggerScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ColorFade.js" />
+     <Compile Include="Assets\0Everything\Scripts\ElevatorInsideTriggerScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ElevatorOutsideTriggerScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ElevatorScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\EnemyScripts\EnemyRagdollScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\EnemyScripts\HPCollider.js" />
+     <Compile Include="Assets\0Everything\Scripts\EnemyScripts\enemySpawnScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\EnemyScripts\testBotScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\GUICamControl.js" />
+     <Compile Include="Assets\0Everything\Scripts\MultiplayerCamScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\MultiplayerManager.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\ChestScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\CreditScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\DestructableObject.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\DoorOpen.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\DoorScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\KeyPadScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\KillPlayerOnTouch.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\LadderScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\LaserScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\LightDestroy.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\LightFlash.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\LightOff.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\NoteScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\ObjectiveGUI.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\OpenCloseWall.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\PaintballGun.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\PickupBehavior.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\ShopScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\TimedDestroyScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\TriggerScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectScripts\WaypointScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectiveManager.js" />
+     <Compile Include="Assets\0Everything\Scripts\ObjectiveTrigger.js" />
+     <Compile Include="Assets\0Everything\Scripts\OpenCloseScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\PersonAnimation.js" />
+     <Compile Include="Assets\0Everything\Scripts\ScreenshotManager.js" />
+     <Compile Include="Assets\0Everything\Scripts\ScrollTexture.js" />
+     <Compile Include="Assets\0Everything\Scripts\SimpleControlScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\SmokeBombBehavior.js" />
+     <Compile Include="Assets\0Everything\Scripts\StartMenuGUI.js" />
+     <Compile Include="Assets\0Everything\Scripts\TurretScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\UsernameTextScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\BulletHoleScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\GunRiseScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\MuzzleFlareScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Projectile Scripts\BulletBehavior.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Projectile Scripts\ExplosionScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Projectile Scripts\MissileBehavior.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\RecoilScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Weapons\FlashbangScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Weapons\GrenadeScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Weapons\KnifeScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Weapons\M16Script.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Weapons\PistolScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Weapons\RPGScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Weapons\ShotgunScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Weapons\SniperScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeaponScripts\Weapons\ThrowableScript.js" />
+     <Compile Include="Assets\0Everything\Scripts\WeatherManager.js" />
+     <Compile Include="Assets\InventoryScript.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\Joystick.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\NextLevel.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ObliqueNear.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\PlayerRelativeControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RollABall.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\RotationConstraint.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SidescrollControl.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SmoothFollow2D.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ZoomCamera.js" />
+     <Compile Include="Assets\Standard Assets (Mobile)\Scripts\tapcontrol.js" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Detonator\Resources\Detonator\Textures\HeatDistort.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\weps.txt" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{2574C794-DA02-A8F8-8732-33138443F073}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,140 @@
+-target:library
+-i:UnityEngine
+-i:System.Collections
+-base:UnityEngine.MonoBehaviour
+-nowarn:BCW0016
+-nowarn:BCW0003
+-method:Main
+-out:Temp/Assembly-UnityScript.dll
+-x-type-inference-rule-attribute:UnityEngineInternal.TypeInferenceRuleAttribute
+-debug
+-define:UNITY_STANDALONE_WIN
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_4
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-i:UnityEditor
+Assets/0Everything/Scripts/AudioManager.js
+Assets/0Everything/Scripts/ButtonScript.js
+"Assets/0Everything/Scripts/Character Scripts/CameraTurnJS.js"
+"Assets/0Everything/Scripts/Character Scripts/ConsoleScript.js"
+"Assets/0Everything/Scripts/Character Scripts/Crosshair.js"
+"Assets/0Everything/Scripts/Character Scripts/CurrencyManager.js"
+"Assets/0Everything/Scripts/Character Scripts/FloorCollider.js"
+"Assets/0Everything/Scripts/Character Scripts/HPManager.js"
+"Assets/0Everything/Scripts/Character Scripts/HPManager2.js"
+"Assets/0Everything/Scripts/Character Scripts/LayerManager.js"
+"Assets/0Everything/Scripts/Character Scripts/LevelingScript.js"
+"Assets/0Everything/Scripts/Character Scripts/PickupManager.js"
+"Assets/0Everything/Scripts/Character Scripts/QualityScript.js"
+"Assets/0Everything/Scripts/Character Scripts/Shooter.js"
+"Assets/0Everything/Scripts/Character Scripts/TakedownTriggerScript.js"
+"Assets/0Everything/Scripts/Character Scripts/ThirdPersonCameraToggle.js"
+"Assets/0Everything/Scripts/Character Scripts/WepCustomization.js"
+"Assets/0Everything/Scripts/Character Scripts/WepTriggerScript.js"
+Assets/0Everything/Scripts/ColorFade.js
+Assets/0Everything/Scripts/ElevatorInsideTriggerScript.js
+Assets/0Everything/Scripts/ElevatorOutsideTriggerScript.js
+Assets/0Everything/Scripts/ElevatorScript.js
+Assets/0Everything/Scripts/EnemyScripts/EnemyRagdollScript.js
+Assets/0Everything/Scripts/EnemyScripts/HPCollider.js
+Assets/0Everything/Scripts/EnemyScripts/enemySpawnScript.js
+Assets/0Everything/Scripts/EnemyScripts/testBotScript.js
+Assets/0Everything/Scripts/GUICamControl.js
+Assets/0Everything/Scripts/MultiplayerCamScript.js
+Assets/0Everything/Scripts/MultiplayerManager.js
+Assets/0Everything/Scripts/ObjectScripts/ChestScript.js
+Assets/0Everything/Scripts/ObjectScripts/CreditScript.js
+Assets/0Everything/Scripts/ObjectScripts/DestructableObject.js
+Assets/0Everything/Scripts/ObjectScripts/DoorOpen.js
+Assets/0Everything/Scripts/ObjectScripts/DoorScript.js
+Assets/0Everything/Scripts/ObjectScripts/KeyPadScript.js
+Assets/0Everything/Scripts/ObjectScripts/KillPlayerOnTouch.js
+Assets/0Everything/Scripts/ObjectScripts/LadderScript.js
+Assets/0Everything/Scripts/ObjectScripts/LaserScript.js
+Assets/0Everything/Scripts/ObjectScripts/LightDestroy.js
+Assets/0Everything/Scripts/ObjectScripts/LightFlash.js
+Assets/0Everything/Scripts/ObjectScripts/LightOff.js
+Assets/0Everything/Scripts/ObjectScripts/NoteScript.js
+Assets/0Everything/Scripts/ObjectScripts/ObjectiveGUI.js
+Assets/0Everything/Scripts/ObjectScripts/OpenCloseWall.js
+Assets/0Everything/Scripts/ObjectScripts/PaintballGun.js
+Assets/0Everything/Scripts/ObjectScripts/PickupBehavior.js
+Assets/0Everything/Scripts/ObjectScripts/ShopScript.js
+Assets/0Everything/Scripts/ObjectScripts/TimedDestroyScript.js
+Assets/0Everything/Scripts/ObjectScripts/TriggerScript.js
+Assets/0Everything/Scripts/ObjectScripts/WaypointScript.js
+Assets/0Everything/Scripts/ObjectiveManager.js
+Assets/0Everything/Scripts/ObjectiveTrigger.js
+Assets/0Everything/Scripts/OpenCloseScript.js
+Assets/0Everything/Scripts/PersonAnimation.js
+Assets/0Everything/Scripts/ScreenshotManager.js
+Assets/0Everything/Scripts/ScrollTexture.js
+Assets/0Everything/Scripts/SimpleControlScript.js
+Assets/0Everything/Scripts/SmokeBombBehavior.js
+Assets/0Everything/Scripts/StartMenuGUI.js
+Assets/0Everything/Scripts/TurretScript.js
+Assets/0Everything/Scripts/UsernameTextScript.js
+Assets/0Everything/Scripts/WeaponScripts/BulletHoleScript.js
+Assets/0Everything/Scripts/WeaponScripts/GunRiseScript.js
+Assets/0Everything/Scripts/WeaponScripts/MuzzleFlareScript.js
+"Assets/0Everything/Scripts/WeaponScripts/Projectile Scripts/BulletBehavior.js"
+"Assets/0Everything/Scripts/WeaponScripts/Projectile Scripts/ExplosionScript.js"
+"Assets/0Everything/Scripts/WeaponScripts/Projectile Scripts/MissileBehavior.js"
+Assets/0Everything/Scripts/WeaponScripts/RecoilScript.js
+Assets/0Everything/Scripts/WeaponScripts/Weapons/FlashbangScript.js
+Assets/0Everything/Scripts/WeaponScripts/Weapons/GrenadeScript.js
+Assets/0Everything/Scripts/WeaponScripts/Weapons/KnifeScript.js
+Assets/0Everything/Scripts/WeaponScripts/Weapons/M16Script.js
+Assets/0Everything/Scripts/WeaponScripts/Weapons/PistolScript.js
+Assets/0Everything/Scripts/WeaponScripts/Weapons/RPGScript.js
+Assets/0Everything/Scripts/WeaponScripts/Weapons/SMGScript.js
+Assets/0Everything/Scripts/WeaponScripts/Weapons/ShotgunScript.js
+Assets/0Everything/Scripts/WeaponScripts/Weapons/SniperScript.js
+Assets/0Everything/Scripts/WeaponScripts/Weapons/ThrowableScript.js
+Assets/0Everything/Scripts/WeatherManager.js
+Assets/InventoryScript.js
+"Assets/Standard Assets (Mobile)/Scripts/CameraRelativeControl.js"
+"Assets/Standard Assets (Mobile)/Scripts/FirstPersonControl.js"
+"Assets/Standard Assets (Mobile)/Scripts/FollowTransform.js"
+"Assets/Standard Assets (Mobile)/Scripts/Joystick.js"
+"Assets/Standard Assets (Mobile)/Scripts/NextLevel.js"
+"Assets/Standard Assets (Mobile)/Scripts/ObliqueNear.js"
+"Assets/Standard Assets (Mobile)/Scripts/PlayerRelativeControl.js"
+"Assets/Standard Assets (Mobile)/Scripts/RollABall.js"
+"Assets/Standard Assets (Mobile)/Scripts/RotationConstraint.js"
+"Assets/Standard Assets (Mobile)/Scripts/SidescrollControl.js"
+"Assets/Standard Assets (Mobile)/Scripts/SmoothFollow2D.js"
+"Assets/Standard Assets (Mobile)/Scripts/ZoomCamera.js"
+"Assets/Standard Assets (Mobile)/Scripts/tapcontrol.js"

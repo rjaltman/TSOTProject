@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Assets2\0Everything\Scripts\GUICamControl.js">
+    <Files>
+      <File FileName="Assets\0Everything\Scripts\Character Scripts\HPManager2.js" Line="15" Column="20" />
+      <File FileName="Assets\Assets2\0Everything\Scripts\StartMenuGUI2.js" Line="105" Column="7" />
+      <File FileName="Assets\Assets2\0Everything\Scripts\GUICamControl.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
